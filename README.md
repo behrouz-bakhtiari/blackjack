@@ -10,3 +10,6 @@ The game uses Monte Carlo simulation to figure out the win rate for the player. 
 When calculating the sum of cards, Jack, Queen, and King count for 10. Aces can count as 1 or 11. (When referring to a player's "total" above, we mean the largest total that can be made without exceeding 21. So A+8 = 19, A+8+8 = 17.)
 
 The player will be dealt another card if the function returns True, otherwise the player stands and the dealer will proceed to the next step.
+
+
+The function written is based on the rough instructions provided at this URL https://www.blackjackapprenticeship.com/blackjack-strategy-charts/.
